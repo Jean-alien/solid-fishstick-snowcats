@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 5500;
 
 app.get('/', (req, res) => {
-  res.send('Hello World from Express')
+  res.send('My Enneagram personality result: Type 9 Peacemaker')
 })
 
 app.listen(port, () => {
