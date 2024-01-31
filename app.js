@@ -23,7 +23,7 @@ app.get('/', function(req, res) {
 
 app.get('/send', function (req, res) {
   
-    res.send('Hello World from Express ')
+    res.send('Hello World from Express <br><a href="/">home</a>')
 })
 
 // app.listen(3000)
@@ -31,3 +31,4 @@ app.get('/send', function (req, res) {
 app.listen(port, () => {
   console.log(`nov app listening on port ${port}`)
 })
+
